@@ -13,7 +13,6 @@ const NavItems = () => {
       {headerLinks.map((link) => {
         const isActive = pathname === link.route;
         
-        console.log(isActive)
         return (
           <li
             key={link.route}
